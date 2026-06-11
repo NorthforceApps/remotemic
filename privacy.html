@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — RemoteMic</title>
+<meta name="description" content="RemoteMic privacy policy. Core streaming is local to your network, no account required, no sale of personal data.">
+<link rel="canonical" href="https://northforceapps.github.io/remotemic/privacy.html">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#0c7e7b">
+<link rel="icon" href="assets/icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .doc{max-width:780px;margin:0 auto;padding:40px 24px 80px}
+  .doc h1{font-family:var(--serif);font-size:2.4rem;color:var(--teal-deep);margin-bottom:6px}
+  .doc h2{font-family:var(--serif);font-size:1.4rem;color:var(--ink);margin:30px 0 8px}
+  .doc p,.doc li{color:var(--ink-soft);margin:8px 0}
+  .doc ul{margin-left:20px}
+  .doc .eff{color:var(--stone);font-size:.95rem}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/remotemic/"><img src="assets/icon.png" alt="RemoteMic icon">RemoteMic</a>
+    <nav class="nav-links"><a href="/remotemic/">Home</a><a class="btn" href="https://play.google.com/store/apps/details?id=com.stream.remotemic" rel="noopener">Get the app</a></nav>
+  </div>
+</header>
+<main class="doc">
+  <h1>Privacy Policy</h1>
+  <p class="eff">Effective date: March 7, 2026</p>
+  <p>RemoteMic is an Android app that lets you stream microphone audio over your local network (LAN/WLAN) to a browser, or route audio to a paired Bluetooth device. This policy explains what data is processed, how it is used, and your choices.</p>
+
+  <h2>1. Summary</h2>
+  <ul>
+    <li>RemoteMic does not require account creation.</li>
+    <li>Core streaming works on your local network.</li>
+    <li>We do not sell your personal data.</li>
+    <li>Payments are handled by Google Play Billing.</li>
+    <li>If Firebase is enabled in a build, crash diagnostics and limited analytics may be collected (see Section 7).</li>
+  </ul>
+
+  <h2>2. Information We Process</h2>
+  <p><strong>Data stored on your device:</strong> stream settings (port, optional web password), audio settings (gain, source, processing mode), onboarding/preference flags, and purchase entitlement state. Used only to operate features and restore your preferences.</p>
+  <p><strong>Audio data:</strong> when you start capture, microphone audio is processed for live playback/streaming to devices you connect to on your local network or to selected local outputs (for example Bluetooth). We do not upload microphone audio to our own servers as part of core app operation.</p>
+  <p><strong>Local network data:</strong> RemoteMic runs a local web endpoint so other devices on the same LAN/WLAN can connect. Connected clients can receive stream data and adjust playback settings, but microphone capture must be started on the phone. If you set a web password, access requires authentication.</p>
+
+  <h2>3. Permissions Used</h2>
+  <ul>
+    <li><strong>RECORD_AUDIO</strong> — capture microphone audio.</li>
+    <li><strong>INTERNET</strong> — local web streaming and control endpoints.</li>
+    <li><strong>FOREGROUND_SERVICE / FOREGROUND_SERVICE_MICROPHONE</strong> — stable foreground operation while capturing.</li>
+    <li><strong>POST_NOTIFICATIONS</strong> — persistent streaming/status notifications (Android 13+).</li>
+    <li><strong>WAKE_LOCK</strong> — keep streaming/capture reliable while active.</li>
+    <li><strong>VIBRATE</strong> — brief haptic feedback when toggling capture or output.</li>
+  </ul>
+
+  <h2>4. In-App Purchases</h2>
+  <p>RemoteMic offers optional paid Pro features via Google Play Billing. Payment processing is handled by Google; we do not receive your full payment card details. Purchase tokens/entitlement state are stored to unlock purchased features.</p>
+
+  <h2>5. Data Sharing</h2>
+  <p>We do not sell personal data. We share data only with service providers needed to run platform functionality, such as Google Play Billing (for purchases) and Firebase services (if enabled in the build, described below).</p>
+
+  <h2>6. Data Deletion</h2>
+  <p>RemoteMic does not collect or store your personal data on our own servers. All app data is stored locally on your device. To remove it, clear the app's storage/data from Android settings, or delete/uninstall the app.</p>
+
+  <h2>7. Firebase Crash Diagnostics and Analytics (if enabled)</h2>
+  <p>Some builds may enable Firebase. When enabled, Firebase Crashlytics and Analytics may process limited technical data such as crash stack traces, device model, OS version, app version, and basic interaction events used for product quality. We do not intentionally send microphone audio content, stream passwords, or payment card data to Firebase. See <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase privacy</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google privacy</a>.</p>
+
+  <h2>8. Security</h2>
+  <p>We use reasonable technical measures to reduce unauthorized access. No system is perfectly secure, especially on shared local networks, so use the optional web password when sharing on LAN/WLAN, and avoid streaming on untrusted networks.</p>
+
+  <h2>9. Children's Privacy</h2>
+  <p>RemoteMic is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this policy from time to time. The latest version will be published with an updated effective date.</p>
+
+  <h2>11. Contact</h2>
+  <p>For privacy questions, contact: <a href="mailto:northforceapps@protonmail.com">northforceapps@protonmail.com</a></p>
+</main>
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="y">2026</span> RemoteMic · Northforce Apps</div>
+    <nav><a href="/remotemic/">Home</a><a href="mailto:northforceapps@protonmail.com">Contact</a></nav>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
