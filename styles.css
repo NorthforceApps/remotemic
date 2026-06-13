@@ -226,3 +226,11 @@ footer{padding:46px 0;color:var(--stone);font-size:.92rem}
 .hero .cta .play-badge img{height:58px}
 .band .play-badge{margin:0 auto}
 @media(max-width:880px){.hero .cta .play-badge img{height:52px}}
+
+/* RTL (e.g. Arabic) — text/flow flip via dir=rtl; nudge the few anchored bits */
+[dir="rtl"] .lang-menu{right:auto;left:0}
+[dir="rtl"] .foot a{margin-left:0;margin-right:18px}
+[dir="rtl"] .hero p.lead{max-width:34ch}
+[dir="rtl"] .tier li{padding:7px 28px 7px 0}
+[dir="rtl"] .tier li::before{left:auto;right:0}
+[dir="rtl"] .faq summary::after{float:left}
