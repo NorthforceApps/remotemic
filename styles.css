@@ -200,3 +200,29 @@ section{padding:76px 0}
 footer{padding:46px 0;color:var(--stone);font-size:.92rem}
 .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
 .foot a{color:var(--ink-soft);margin-left:18px}
+
+/* language dropdown (header) */
+.lang{position:relative}
+.lang>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;
+  font-weight:600;font-size:.95rem;color:var(--ink-soft);padding:7px 12px;border-radius:999px;
+  border:1px solid rgba(10,18,33,.12)}
+.lang>summary::-webkit-details-marker{display:none}
+.lang>summary::marker{content:""}
+.lang>summary:hover{background:rgba(10,18,33,.05)}
+.lang .chev{font-size:.7em;color:var(--stone)}
+.lang[open]>summary .chev{transform:rotate(180deg)}
+.lang-menu{position:absolute;right:0;top:calc(100% + 8px);background:var(--paper);
+  border:1px solid rgba(10,18,33,.1);border-radius:14px;box-shadow:var(--shadow);
+  padding:6px;min-width:172px;z-index:40;display:flex;flex-direction:column;gap:2px}
+.lang-menu a{padding:9px 12px;border-radius:10px;color:var(--ink);font-weight:600;
+  font-size:.95rem;white-space:nowrap;margin:0}
+.lang-menu a:hover{background:rgba(10,18,33,.06);text-decoration:none}
+.lang-menu a[aria-current]{color:var(--cyan-deep);background:rgba(24,160,196,.10)}
+
+/* "Get it on Google Play" badge */
+.play-badge{display:inline-flex;align-items:center;justify-content:center}
+.play-badge img{height:56px;width:auto;display:block;box-shadow:none;border-radius:0}
+.play-badge:hover{text-decoration:none;opacity:.92}
+.hero .cta .play-badge img{height:58px}
+.band .play-badge{margin:0 auto}
+@media(max-width:880px){.hero .cta .play-badge img{height:52px}}
