@@ -1,15 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://northforceapps.github.io/remotemic/</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/remotemic/de/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/remotemic/guides/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/guides/"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/remotemic/de/guides/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/guides/"/>
   </url>
   <url>
     <loc>https://northforceapps.github.io/remotemic/privacy.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/remotemic/de/privacy.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/remotemic/guides/phone-as-bluetooth-microphone.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/guides/phone-as-bluetooth-microphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/guides/phone-as-bluetooth-microphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/guides/phone-as-bluetooth-microphone.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/remotemic/de/guides/phone-as-bluetooth-microphone.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/guides/phone-as-bluetooth-microphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/guides/phone-as-bluetooth-microphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/guides/phone-as-bluetooth-microphone.html"/>
   </url>
 </urlset>
