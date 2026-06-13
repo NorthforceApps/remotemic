@@ -115,6 +115,13 @@ section{padding:76px 0}
 .gallery img{width:230px;flex:0 0 auto;border-radius:20px;scroll-snap-align:center;
   box-shadow:var(--shadow)}
 
+/* scene composites + comic */
+.scenes{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.scenes img{width:100%;border-radius:18px;box-shadow:var(--shadow);display:block}
+@media(max-width:760px){.scenes{grid-template-columns:1fr}}
+.comic{margin-top:8px}
+.comic img{width:100%;border-radius:18px;box-shadow:var(--shadow);display:block}
+
 /* pricing */
 .tiers{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:760px;margin:0 auto}
 .tier{background:var(--paper);border-radius:22px;padding:30px;border:1px solid rgba(10,18,33,.08)}
