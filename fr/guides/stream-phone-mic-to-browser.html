@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diffuser le micro de votre téléphone vers un navigateur via le Wi-Fi — RemoteMic</title>
+<meta name="description" content="Transformez un téléphone Android en micro en direct que n'importe quel navigateur sur le même Wi-Fi peut lire — aucune application pour les auditeurs, aucun câble. Diffusez le micro de votre téléphone vers un ordinateur ou un navigateur avec RemoteMic.">
+<link rel="canonical" href="https://northforceapps.github.io/remotemic/fr/guides/stream-phone-mic-to-browser.html">
+<meta name="theme-color" content="#0c7e7b">
+<meta name="keywords" content="diffuser micro téléphone vers navigateur, téléphone comme micro PC, streamer microphone par Wi-Fi, micro du téléphone sur PC">
+<link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="fr" href="https://northforceapps.github.io/remotemic/fr/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="es" href="https://northforceapps.github.io/remotemic/es/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="pt-BR" href="https://northforceapps.github.io/remotemic/pt-br/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="hi" href="https://northforceapps.github.io/remotemic/hi/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="ja" href="https://northforceapps.github.io/remotemic/ja/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="ar" href="https://northforceapps.github.io/remotemic/ar/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/guides/stream-phone-mic-to-browser.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RemoteMic">
+<meta property="og:locale" content="fr">
+<meta property="og:title" content="Diffuser le micro de votre téléphone vers un navigateur via le Wi-Fi">
+<meta property="og:description" content="Transformez un téléphone Android en micro en direct que n'importe quel navigateur sur le même Wi-Fi peut lire — aucune application pour les auditeurs, aucun câble. Diffusez le micro de votre téléphone vers un ordinateur ou un navigateur avec RemoteMic.">
+<meta property="og:url" content="https://northforceapps.github.io/remotemic/fr/guides/stream-phone-mic-to-browser.html">
+<meta property="og:image" content="https://northforceapps.github.io/remotemic/assets/feature_graphic.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Diffuser le micro de votre téléphone vers un navigateur via le Wi-Fi">
+<meta name="twitter:description" content="Transformez un téléphone Android en micro en direct que n'importe quel navigateur sur le même Wi-Fi peut lire — aucune application pour les auditeurs, aucun câble. Diffusez le micro de votre téléphone vers un ordinateur ou un navigateur avec RemoteMic.">
+<meta name="twitter:image" content="https://northforceapps.github.io/remotemic/assets/feature_graphic.png">
+<link rel="icon" href="/remotemic/assets/icon.png" type="image/png">
+<link rel="apple-touch-icon" href="/remotemic/assets/icon.png">
+<link rel="manifest" href="/remotemic/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/remotemic/styles.css">
+<style>.doc{max-width:780px;margin:0 auto;padding:40px 24px 80px}
+  .doc h1{font-family:var(--serif);font-size:2.4rem;color:var(--teal-deep);margin-bottom:6px}
+  .doc h2{font-family:var(--serif);font-size:1.4rem;color:var(--ink);margin:30px 0 8px}
+  .doc p,.doc li{color:var(--ink-soft);margin:8px 0}
+  .doc ul{margin-left:20px}
+  .doc .eff{color:var(--stone);font-size:.95rem}
+  .doc .lede{margin-top:18px}
+  .doc .cta-card{margin-top:36px;padding:22px;border-radius:18px;background:var(--paper);border:1px solid rgba(10,18,33,.08)}
+  .guide-hero{width:100%;height:auto;border-radius:18px;margin:18px 0 8px;display:block}
+  .doc h3{font-family:var(--serif);font-size:1.15rem;color:var(--teal-deep);margin:22px 0 6px}
+  .doc ol,.doc ul{margin-left:20px}
+  .doc ol li,.doc ul li{margin:6px 0}
+  .doc .faq{margin-top:34px}
+  .doc .faq h2{margin-bottom:6px}
+  .doc .faq details{border-bottom:1px solid rgba(10,18,33,.10);padding:12px 0}
+  .doc .faq summary{font-weight:600;color:var(--ink);cursor:pointer}
+  .doc .faq details p{margin-top:8px}
+  .doc .related{margin-top:34px}
+  .doc .related ul{list-style:none;margin-left:0}
+  .doc .related li{margin:8px 0}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "inLanguage": "fr",
+  "headline": "Diffuser le micro de votre téléphone vers un navigateur via le Wi-Fi",
+  "description": "Transformez un téléphone Android en micro en direct que n'importe quel navigateur sur le même Wi-Fi peut lire — aucune application pour les auditeurs, aucun câble. Diffusez le micro de votre téléphone vers un ordinateur ou un navigateur avec RemoteMic.",
+  "mainEntityOfPage": "https://northforceapps.github.io/remotemic/fr/guides/stream-phone-mic-to-browser.html",
+  "image": "https://northforceapps.github.io/remotemic/assets/feature_graphic.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Northforce Apps"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "fr",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Dois-je installer quelque chose sur l'ordinateur ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. L'appareil qui écoute ouvre simplement une adresse web dans un navigateur moderne — Chrome, Safari, Edge ou Firefox. Seul le téléphone a besoin de RemoteMic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment ouvrir le flux ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RemoteMic affiche un lien et un QR code. Saisissez le lien dans un navigateur sur le même Wi-Fi, ou scannez le QR code, et la lecture démarre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Plusieurs ordinateurs et téléphones peuvent-ils écouter ensemble ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Partagez le même lien ; chaque navigateur du réseau peut lire le flux en même temps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quel est le délai ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En général bien moins d'une seconde sur un réseau local — parfait pour le commentaire, le monitoring et l'aide auditive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il internet ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Cela fonctionne sur n'importe quel Wi-Fi local et peut héberger son propre point d'accès quand il n'y a aucun réseau."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/remotemic/fr/"><img src="/remotemic/assets/icon.png" alt="RemoteMic icon">RemoteMic</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="/remotemic/fr/#features">Fonctions</a>
+      <a href="/remotemic/fr/#how">Comment ça marche</a>
+      <a href="/remotemic/fr/guides/">Guides</a>
+      <details class="lang"><summary><span class="flag">🇫🇷</span> Français <span class="chev" aria-hidden="true">▾</span></summary><div class="lang-menu"><a href="/remotemic/guides/stream-phone-mic-to-browser.html" hreflang="en" lang="en">🇬🇧 English</a><a href="/remotemic/de/guides/stream-phone-mic-to-browser.html" hreflang="de" lang="de">🇩🇪 Deutsch</a><a href="/remotemic/fr/guides/stream-phone-mic-to-browser.html" hreflang="fr" lang="fr" aria-current="true">🇫🇷 Français</a><a href="/remotemic/es/guides/stream-phone-mic-to-browser.html" hreflang="es" lang="es">🇪🇸 Español</a><a href="/remotemic/pt-br/guides/stream-phone-mic-to-browser.html" hreflang="pt-BR" lang="pt-BR">🇧🇷 Português</a><a href="/remotemic/hi/guides/stream-phone-mic-to-browser.html" hreflang="hi" lang="hi">🇮🇳 हिन्दी</a><a href="/remotemic/ja/guides/stream-phone-mic-to-browser.html" hreflang="ja" lang="ja">🇯🇵 日本語</a><a href="/remotemic/ar/guides/stream-phone-mic-to-browser.html" hreflang="ar" lang="ar">🇸🇦 العربية</a></div></details>
+    </nav>
+  </div>
+</header>
+<main class="doc">
+  <p class="eff"><a href="/remotemic/fr/guides/">← Tous les guides</a></p>
+  <h1>Diffuser le micro de votre téléphone vers un navigateur via le Wi-Fi</h1>
+  <img class="guide-hero" src="/remotemic/assets/fr/scene-06-browser.jpg" alt="Un téléphone diffuse l'audio du micro en direct vers le navigateur d'un ordinateur portable via le Wi-Fi" loading="lazy">
+<p class="lede">Envie de <strong>diffuser le micro de votre téléphone vers un navigateur</strong> sur le même Wi-Fi&nbsp;? <a href="/remotemic/fr/">RemoteMic</a> transforme un téléphone Android en micro en direct, lisible par n’importe quel ordinateur, tablette ou autre téléphone simplement en ouvrant un lien web — sans application pour les auditeurs, sans câble et sans compte cloud. Orientez le téléphone, ouvrez la page, et votre voix arrive dans le navigateur.</p>
+
+<h2>Ce qu’il vous faut</h2>
+<ul>
+  <li>Un téléphone Android (Android 11 ou plus récent) avec RemoteMic installé — c’est le microphone.</li>
+  <li>N’importe quel appareil avec un navigateur moderne — Chrome, Safari, Edge ou Firefox — sur le même Wi-Fi.</li>
+</ul>
+
+<h2>Étape par étape</h2>
+<ol>
+  <li><strong>Démarrez le micro dans RemoteMic.</strong> Le téléphone commence à capter l’audio et à héberger un flux local sur votre réseau.</li>
+  <li><strong>Trouvez le lien d’écoute.</strong> L’application affiche une adresse web (et un QR code) pour le flux — une adresse de votre réseau local que vous pouvez ouvrir depuis n’importe quel navigateur.</li>
+  <li><strong>Ouvrez-le sur l’ordinateur.</strong> Saisissez le lien dans le navigateur de votre ordinateur portable ou de bureau, ou scannez le QR code avec un autre téléphone. La lecture démarre dans la page.</li>
+  <li><strong>Parlez.</strong> Votre voix sort en temps réel par les haut-parleurs ou le casque de l’ordinateur. Ajustez le gain sur le téléphone si vous avez besoin de plus ou moins de niveau.</li>
+</ol>
+
+<h2>Les auditeurs doivent-ils installer quelque chose&nbsp;?</h2>
+<p>Non. C’est tout l’intérêt — côté écoute, ce n’est qu’une page web. Toute personne à qui vous partagez le lien, sur le même réseau, peut écouter dans son navigateur sans rien télécharger. Seul le téléphone micro exécute RemoteMic.</p>
+
+<h2>Plusieurs appareils peuvent-ils écouter&nbsp;?</h2>
+<p>Oui. Partagez le même lien, et chaque navigateur du réseau peut lire le flux en même temps — un ordinateur portable, un ordinateur de bureau et deux téléphones, par exemple. Le mécanisme est le même, qu’une seule personne écoute ou toute une salle.</p>
+
+<h2>Quelle est la latence&nbsp;?</h2>
+<p>Sur un Wi-Fi ou un hotspot ordinaire, le délai est généralement assez faible pour la narration, le monitoring vocal, l’écoute assistée ou l’envoi de l’audio vers un enregistrement ou un appel. Avec un téléphone et un routeur de milieu de gamme, on peut être autour de 150&nbsp;ms selon les conditions Wi-Fi et la mise en mémoire tampon audio. Ce n’est pas prévu pour une synchronisation labiale stricte avec une vidéo.</p>
+
+<h2>Pas de réseau Wi-Fi&nbsp;? Utilisez le hotspot intégré</h2>
+<p>S’il n’y a pas de réseau à partager, RemoteMic peut créer son propre hotspot privé. Connectez l’ordinateur à ce hotspot, ouvrez le lien, et vous streamez sans internet et sans routeur.</p>
+
+<h2>Pratique pour</h2>
+<ul>
+  <li><strong>Utiliser un téléphone comme micro de PC</strong> en Wi-Fi au lieu d’un micro USB.</li>
+  <li><strong>Monitoring</strong> — écouter une pièce depuis un autre appareil pendant l’installation.</li>
+  <li><strong>Écoute en groupe</strong> — plusieurs navigateurs sur un même flux, sans équipement supplémentaire.</li>
+</ul>
+
+<p>Découvrez <a href="/remotemic/fr/">comment fonctionne RemoteMic</a>, ou consultez le guide pour <a href="/remotemic/fr/guides/wireless-tour-guide-system-app.html">utiliser un système de visite guidée sans fil</a> et streamer vers les téléphones de tout un groupe.</p>
+
+  <section class="faq">
+    <h2>Questions fréquentes</h2>
+    <details><summary>Dois-je installer quelque chose sur l'ordinateur ?</summary><p>Non. L'appareil qui écoute ouvre simplement une adresse web dans un navigateur moderne — Chrome, Safari, Edge ou Firefox. Seul le téléphone a besoin de RemoteMic.</p></details>
+    <details><summary>Comment ouvrir le flux ?</summary><p>RemoteMic affiche un lien et un QR code. Saisissez le lien dans un navigateur sur le même Wi-Fi, ou scannez le QR code, et la lecture démarre.</p></details>
+    <details><summary>Plusieurs ordinateurs et téléphones peuvent-ils écouter ensemble ?</summary><p>Oui. Partagez le même lien ; chaque navigateur du réseau peut lire le flux en même temps.</p></details>
+    <details><summary>Quel est le délai ?</summary><p>En général bien moins d'une seconde sur un réseau local — parfait pour le commentaire, le monitoring et l'aide auditive.</p></details>
+    <details><summary>Faut-il internet ?</summary><p>Non. Cela fonctionne sur n'importe quel Wi-Fi local et peut héberger son propre point d'accès quand il n'y a aucun réseau.</p></details>
+  </section>
+  <section class="related">
+    <h2>Guides associés</h2>
+    <ul>
+      <li><a href="/remotemic/fr/guides/wireless-tour-guide-system-app.html">Application de système de guide touristique sans fil</a></li>
+      <li><a href="/remotemic/fr/guides/assistive-listening-app.html">Application d'aide auditive</a></li>
+      <li><a href="/remotemic/fr/guides/phone-as-bluetooth-microphone.html">Téléphone comme micro Bluetooth</a></li>
+    </ul>
+  </section>
+  <div class="cta-card">
+    <h2>Prêt à essayer ?</h2>
+    <p>RemoteMic est gratuit à installer. Faites-vous entendre en quelques secondes.</p>
+    <p><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.stream.remotemic" rel="noopener"><img src="/remotemic/assets/badge-fr.svg" alt="Disponible sur Google Play" width="186" height="55" loading="lazy"></a></p>
+  </div>
+</main>
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="y">2026</span> RemoteMic · Northforce Apps</div>
+    <nav aria-label="Footer">
+      <a href="/remotemic/fr/privacy.html">Confidentialité</a>
+      <a href="mailto:northforceapps@protonmail.com">Contact</a>
+      <a href="https://play.google.com/store/apps/details?id=com.stream.remotemic" rel="noopener">Google Play</a>
+    </nav>
+  </div>
+</footer>
+<script src="/remotemic/app.js"></script>
+</body>
+</html>

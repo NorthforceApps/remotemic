@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>अपने फ़ोन का माइक Wi-Fi पर ब्राउज़र में स्ट्रीम करें — RemoteMic</title>
+<meta name="description" content="एक Android फ़ोन को लाइव माइक्रोफ़ोन में बदलें जिसे उसी Wi-Fi पर कोई भी ब्राउज़र चला सके — सुनने वालों के लिए कोई ऐप नहीं, कोई केबल नहीं। RemoteMic से अपने फ़ोन का माइक कंप्यूटर या ब्राउज़र में स्ट्रीम करें।">
+<link rel="canonical" href="https://northforceapps.github.io/remotemic/hi/guides/stream-phone-mic-to-browser.html">
+<meta name="theme-color" content="#0c7e7b">
+<meta name="keywords" content="फ़ोन का माइक ब्राउज़र में स्ट्रीम, फ़ोन को PC माइक्रोफोन बनाना, वाई-फाई पर माइक्रोफोन स्ट्रीम, फ़ोन माइक से कंप्यूटर">
+<link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="fr" href="https://northforceapps.github.io/remotemic/fr/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="es" href="https://northforceapps.github.io/remotemic/es/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="pt-BR" href="https://northforceapps.github.io/remotemic/pt-br/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="hi" href="https://northforceapps.github.io/remotemic/hi/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="ja" href="https://northforceapps.github.io/remotemic/ja/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="ar" href="https://northforceapps.github.io/remotemic/ar/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/guides/stream-phone-mic-to-browser.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RemoteMic">
+<meta property="og:locale" content="hi">
+<meta property="og:title" content="अपने फ़ोन का माइक Wi-Fi पर ब्राउज़र में स्ट्रीम करें">
+<meta property="og:description" content="एक Android फ़ोन को लाइव माइक्रोफ़ोन में बदलें जिसे उसी Wi-Fi पर कोई भी ब्राउज़र चला सके — सुनने वालों के लिए कोई ऐप नहीं, कोई केबल नहीं। RemoteMic से अपने फ़ोन का माइक कंप्यूटर या ब्राउज़र में स्ट्रीम करें।">
+<meta property="og:url" content="https://northforceapps.github.io/remotemic/hi/guides/stream-phone-mic-to-browser.html">
+<meta property="og:image" content="https://northforceapps.github.io/remotemic/assets/feature_graphic.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="अपने फ़ोन का माइक Wi-Fi पर ब्राउज़र में स्ट्रीम करें">
+<meta name="twitter:description" content="एक Android फ़ोन को लाइव माइक्रोफ़ोन में बदलें जिसे उसी Wi-Fi पर कोई भी ब्राउज़र चला सके — सुनने वालों के लिए कोई ऐप नहीं, कोई केबल नहीं। RemoteMic से अपने फ़ोन का माइक कंप्यूटर या ब्राउज़र में स्ट्रीम करें।">
+<meta name="twitter:image" content="https://northforceapps.github.io/remotemic/assets/feature_graphic.png">
+<link rel="icon" href="/remotemic/assets/icon.png" type="image/png">
+<link rel="apple-touch-icon" href="/remotemic/assets/icon.png">
+<link rel="manifest" href="/remotemic/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/remotemic/styles.css">
+<style>.doc{max-width:780px;margin:0 auto;padding:40px 24px 80px}
+  .doc h1{font-family:var(--serif);font-size:2.4rem;color:var(--teal-deep);margin-bottom:6px}
+  .doc h2{font-family:var(--serif);font-size:1.4rem;color:var(--ink);margin:30px 0 8px}
+  .doc p,.doc li{color:var(--ink-soft);margin:8px 0}
+  .doc ul{margin-left:20px}
+  .doc .eff{color:var(--stone);font-size:.95rem}
+  .doc .lede{margin-top:18px}
+  .doc .cta-card{margin-top:36px;padding:22px;border-radius:18px;background:var(--paper);border:1px solid rgba(10,18,33,.08)}
+  .guide-hero{width:100%;height:auto;border-radius:18px;margin:18px 0 8px;display:block}
+  .doc h3{font-family:var(--serif);font-size:1.15rem;color:var(--teal-deep);margin:22px 0 6px}
+  .doc ol,.doc ul{margin-left:20px}
+  .doc ol li,.doc ul li{margin:6px 0}
+  .doc .faq{margin-top:34px}
+  .doc .faq h2{margin-bottom:6px}
+  .doc .faq details{border-bottom:1px solid rgba(10,18,33,.10);padding:12px 0}
+  .doc .faq summary{font-weight:600;color:var(--ink);cursor:pointer}
+  .doc .faq details p{margin-top:8px}
+  .doc .related{margin-top:34px}
+  .doc .related ul{list-style:none;margin-left:0}
+  .doc .related li{margin:8px 0}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "inLanguage": "hi",
+  "headline": "अपने फ़ोन का माइक Wi-Fi पर ब्राउज़र में स्ट्रीम करें",
+  "description": "एक Android फ़ोन को लाइव माइक्रोफ़ोन में बदलें जिसे उसी Wi-Fi पर कोई भी ब्राउज़र चला सके — सुनने वालों के लिए कोई ऐप नहीं, कोई केबल नहीं। RemoteMic से अपने फ़ोन का माइक कंप्यूटर या ब्राउज़र में स्ट्रीम करें।",
+  "mainEntityOfPage": "https://northforceapps.github.io/remotemic/hi/guides/stream-phone-mic-to-browser.html",
+  "image": "https://northforceapps.github.io/remotemic/assets/feature_graphic.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Northforce Apps"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "hi",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "क्या मुझे कंप्यूटर पर कुछ इंस्टॉल करना होगा?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "नहीं। सुनने वाला डिवाइस बस किसी भी आधुनिक ब्राउज़र — Chrome, Safari, Edge या Firefox — में एक वेब पता खोलता है। केवल फ़ोन को RemoteMic चाहिए।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "मैं स्ट्रीम कैसे खोलूँ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RemoteMic एक लिंक और QR कोड दिखाता है। उसी Wi-Fi पर ब्राउज़र में लिंक टाइप करें, या QR कोड स्कैन करें, और प्लेबैक शुरू हो जाता है।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "क्या कई कंप्यूटर और फ़ोन एक साथ सुन सकते हैं?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "हाँ। वही लिंक साझा करें; नेटवर्क पर हर ब्राउज़र एक साथ स्ट्रीम चला सकता है।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "कितनी देरी होती है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "लोकल नेटवर्क पर आम तौर पर एक सेकंड से काफ़ी कम — नैरेशन, मॉनिटरिंग और हियरिंग असिस्ट के लिए ठीक।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "क्या इसे इंटरनेट चाहिए?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "नहीं। यह किसी भी लोकल Wi-Fi पर काम करता है, और जब कोई नेटवर्क न हो तो अपना हॉटस्पॉट बना सकता है।"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/remotemic/hi/"><img src="/remotemic/assets/icon.png" alt="RemoteMic icon">RemoteMic</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="/remotemic/hi/#features">Features</a>
+      <a href="/remotemic/hi/#how">यह कैसे काम करता है</a>
+      <a href="/remotemic/hi/guides/">Guides</a>
+      <details class="lang"><summary><span class="flag">🇮🇳</span> हिन्दी <span class="chev" aria-hidden="true">▾</span></summary><div class="lang-menu"><a href="/remotemic/guides/stream-phone-mic-to-browser.html" hreflang="en" lang="en">🇬🇧 English</a><a href="/remotemic/de/guides/stream-phone-mic-to-browser.html" hreflang="de" lang="de">🇩🇪 Deutsch</a><a href="/remotemic/fr/guides/stream-phone-mic-to-browser.html" hreflang="fr" lang="fr">🇫🇷 Français</a><a href="/remotemic/es/guides/stream-phone-mic-to-browser.html" hreflang="es" lang="es">🇪🇸 Español</a><a href="/remotemic/pt-br/guides/stream-phone-mic-to-browser.html" hreflang="pt-BR" lang="pt-BR">🇧🇷 Português</a><a href="/remotemic/hi/guides/stream-phone-mic-to-browser.html" hreflang="hi" lang="hi" aria-current="true">🇮🇳 हिन्दी</a><a href="/remotemic/ja/guides/stream-phone-mic-to-browser.html" hreflang="ja" lang="ja">🇯🇵 日本語</a><a href="/remotemic/ar/guides/stream-phone-mic-to-browser.html" hreflang="ar" lang="ar">🇸🇦 العربية</a></div></details>
+    </nav>
+  </div>
+</header>
+<main class="doc">
+  <p class="eff"><a href="/remotemic/hi/guides/">← सभी guides</a></p>
+  <h1>अपने फ़ोन का माइक Wi-Fi पर ब्राउज़र में स्ट्रीम करें</h1>
+  <img class="guide-hero" src="/remotemic/assets/hi/scene-06-browser.jpg" alt="एक फ़ोन Wi-Fi पर लैपटॉप के ब्राउज़र में लाइव माइक्रोफ़ोन ऑडियो स्ट्रीम कर रहा है" loading="lazy">
+<p class="lede">क्या आप उसी Wi-Fi पर <strong>अपने फ़ोन का माइक ब्राउज़र में स्ट्रीम करना</strong> चाहते हैं? <a href="/remotemic/hi/">RemoteMic</a> Android फ़ोन को लाइव माइक्रोफ़ोन में बदल देता है, जिसे कोई भी कंप्यूटर, टैबलेट या दूसरा फ़ोन सिर्फ़ वेब लिंक खोलकर चला सकता है — सुनने वालों के लिए कोई app नहीं, कोई केबल नहीं और कोई cloud account नहीं। फ़ोन को सही दिशा में रखें, पेज खोलें, और आपकी आवाज़ ब्राउज़र में सुनाई देती है।</p>
+
+<h2>आपको क्या चाहिए</h2>
+<ul>
+  <li>RemoteMic इंस्टॉल किया हुआ Android फ़ोन (Android 11 या नया) — यही माइक्रोफ़ोन है।</li>
+  <li>उसी Wi-Fi पर कोई भी डिवाइस जिसमें modern browser हो — Chrome, Safari, Edge या Firefox।</li>
+</ul>
+
+<h2>कदम दर कदम</h2>
+<ol>
+  <li><strong>RemoteMic में mic शुरू करें।</strong> फ़ोन audio capture करना शुरू करता है और आपके नेटवर्क पर local stream host करता है।</li>
+  <li><strong>सुनने वाला लिंक ढूँढें।</strong> app stream के लिए एक web address (और QR code) दिखाता है — आपके local network का ऐसा लिंक जिसे किसी भी browser से खोला जा सकता है।</li>
+  <li><strong>इसे कंप्यूटर पर खोलें।</strong> अपने laptop या desktop के browser में लिंक टाइप करें, या दूसरे फ़ोन से QR code scan करें। Playback पेज में शुरू हो जाता है।</li>
+  <li><strong>बोलें।</strong> आपकी आवाज़ real time में कंप्यूटर के speakers या headphones से सुनाई देती है। अगर level ज़्यादा या कम चाहिए, तो फ़ोन पर gain adjust करें।</li>
+</ol>
+
+<h2>क्या सुनने वालों को कुछ install करना होगा?</h2>
+<p>नहीं। यही इसका उद्देश्य है — सुनने वाली तरफ़ सिर्फ़ एक web page है। जिस किसी के साथ आप लिंक share करते हैं, वह उसी network पर बिना कुछ download किए अपने browser में सुन सकता है। RemoteMic सिर्फ़ फ़ोन पर चलता है।</p>
+
+<h2>क्या एक से ज़्यादा device सुन सकते हैं?</h2>
+<p>हाँ। वही लिंक share करें और network के हर browser में stream एक साथ चल सकती है — जैसे एक laptop, एक desktop और कुछ फ़ोन साथ में। mechanism वही है, चाहे एक व्यक्ति सुने या पूरा कमरा।</p>
+
+<h2>कितनी देरी होती है?</h2>
+<p>सामान्य Wi-Fi या hotspot पर delay आम तौर पर narration, voice monitoring, assistive listening या recording/call में audio भेजने के लिए पर्याप्त रूप से कम होता है। सामान्य mid-range फ़ोन और router setup में यह Wi-Fi की स्थिति और audio buffering पर निर्भर करते हुए लगभग 150 ms हो सकता है। यह video के साथ tight lip-sync के लिए नहीं है।</p>
+
+<h2>Wi-Fi network नहीं है? Built-in hotspot का उपयोग करें</h2>
+<p>अगर share करने के लिए कोई network नहीं है, तो RemoteMic अपना private hotspot बना सकता है। कंप्यूटर को उस hotspot से connect करें, लिंक खोलें, और आप बिना internet और बिना router के stream कर रहे हैं।</p>
+
+<h2>इन कामों में उपयोगी</h2>
+<ul>
+  <li><strong>फ़ोन को PC microphone की तरह इस्तेमाल करना</strong> — USB mic के बजाय Wi-Fi पर।</li>
+  <li><strong>Monitoring</strong> — setup करते समय किसी room को दूसरे device से सुनें।</li>
+  <li><strong>Group listening</strong> — एक ही stream पर कई browser, बिना extra gear।</li>
+</ul>
+
+<p>देखें कि <a href="/remotemic/hi/">RemoteMic कैसे काम करता है</a>, या पूरे समूह के फ़ोन तक stream करने के लिए <a href="/remotemic/hi/guides/wireless-tour-guide-system-app.html">wireless tour-guide system चलाने</a> की guide पढ़ें।</p>
+
+  <section class="faq">
+    <h2>अक्सर पूछे जाने वाले सवाल</h2>
+    <details><summary>क्या मुझे कंप्यूटर पर कुछ इंस्टॉल करना होगा?</summary><p>नहीं। सुनने वाला डिवाइस बस किसी भी आधुनिक ब्राउज़र — Chrome, Safari, Edge या Firefox — में एक वेब पता खोलता है। केवल फ़ोन को RemoteMic चाहिए।</p></details>
+    <details><summary>मैं स्ट्रीम कैसे खोलूँ?</summary><p>RemoteMic एक लिंक और QR कोड दिखाता है। उसी Wi-Fi पर ब्राउज़र में लिंक टाइप करें, या QR कोड स्कैन करें, और प्लेबैक शुरू हो जाता है।</p></details>
+    <details><summary>क्या कई कंप्यूटर और फ़ोन एक साथ सुन सकते हैं?</summary><p>हाँ। वही लिंक साझा करें; नेटवर्क पर हर ब्राउज़र एक साथ स्ट्रीम चला सकता है।</p></details>
+    <details><summary>कितनी देरी होती है?</summary><p>लोकल नेटवर्क पर आम तौर पर एक सेकंड से काफ़ी कम — नैरेशन, मॉनिटरिंग और हियरिंग असिस्ट के लिए ठीक।</p></details>
+    <details><summary>क्या इसे इंटरनेट चाहिए?</summary><p>नहीं। यह किसी भी लोकल Wi-Fi पर काम करता है, और जब कोई नेटवर्क न हो तो अपना हॉटस्पॉट बना सकता है।</p></details>
+  </section>
+  <section class="related">
+    <h2>संबंधित गाइड</h2>
+    <ul>
+      <li><a href="/remotemic/hi/guides/wireless-tour-guide-system-app.html">वायरलेस टूर गाइड सिस्टम ऐप</a></li>
+      <li><a href="/remotemic/hi/guides/assistive-listening-app.html">हियरिंग असिस्ट ऐप</a></li>
+      <li><a href="/remotemic/hi/guides/phone-as-bluetooth-microphone.html">फ़ोन को Bluetooth microphone की तरह use करें</a></li>
+    </ul>
+  </section>
+  <div class="cta-card">
+    <h2>Try करने के लिए ready?</h2>
+    <p>RemoteMic install करना free है। सेकंडों में सुने जाएं।</p>
+    <p><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.stream.remotemic" rel="noopener"><img src="/remotemic/assets/badge-hi.svg" alt="Google Play पर पाएं" width="186" height="55" loading="lazy"></a></p>
+  </div>
+</main>
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="y">2026</span> RemoteMic · Northforce Apps</div>
+    <nav aria-label="Footer">
+      <a href="/remotemic/hi/privacy.html">Privacy</a>
+      <a href="mailto:northforceapps@protonmail.com">Contact</a>
+      <a href="https://play.google.com/store/apps/details?id=com.stream.remotemic" rel="noopener">Google Play</a>
+    </nav>
+  </div>
+</footer>
+<script src="/remotemic/app.js"></script>
+</body>
+</html>

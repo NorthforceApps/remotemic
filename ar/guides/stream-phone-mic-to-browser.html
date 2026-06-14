@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>بثّ ميكروفون هاتفك إلى المتصفح عبر Wi-Fi — RemoteMic</title>
+<meta name="description" content="حوّل هاتف Android إلى ميكروفون مباشر يمكن لأي متصفح على نفس شبكة Wi-Fi تشغيله — دون تطبيق للمستمعين ودون كابلات. ابثّ ميكروفون هاتفك إلى حاسوب أو متصفح باستخدام RemoteMic.">
+<link rel="canonical" href="https://northforceapps.github.io/remotemic/ar/guides/stream-phone-mic-to-browser.html">
+<meta name="theme-color" content="#0c7e7b">
+<meta name="keywords" content="بث ميكروفون الهاتف إلى المتصفح, الهاتف كميكروفون للكمبيوتر, بث الميكروفون عبر Wi-Fi, ميكروفون الهاتف إلى الكمبيوتر">
+<link rel="alternate" hreflang="en" href="https://northforceapps.github.io/remotemic/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="de" href="https://northforceapps.github.io/remotemic/de/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="fr" href="https://northforceapps.github.io/remotemic/fr/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="es" href="https://northforceapps.github.io/remotemic/es/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="pt-BR" href="https://northforceapps.github.io/remotemic/pt-br/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="hi" href="https://northforceapps.github.io/remotemic/hi/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="ja" href="https://northforceapps.github.io/remotemic/ja/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="ar" href="https://northforceapps.github.io/remotemic/ar/guides/stream-phone-mic-to-browser.html">
+<link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/remotemic/guides/stream-phone-mic-to-browser.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RemoteMic">
+<meta property="og:locale" content="ar">
+<meta property="og:title" content="بثّ ميكروفون هاتفك إلى المتصفح عبر Wi-Fi">
+<meta property="og:description" content="حوّل هاتف Android إلى ميكروفون مباشر يمكن لأي متصفح على نفس شبكة Wi-Fi تشغيله — دون تطبيق للمستمعين ودون كابلات. ابثّ ميكروفون هاتفك إلى حاسوب أو متصفح باستخدام RemoteMic.">
+<meta property="og:url" content="https://northforceapps.github.io/remotemic/ar/guides/stream-phone-mic-to-browser.html">
+<meta property="og:image" content="https://northforceapps.github.io/remotemic/assets/feature_graphic.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="بثّ ميكروفون هاتفك إلى المتصفح عبر Wi-Fi">
+<meta name="twitter:description" content="حوّل هاتف Android إلى ميكروفون مباشر يمكن لأي متصفح على نفس شبكة Wi-Fi تشغيله — دون تطبيق للمستمعين ودون كابلات. ابثّ ميكروفون هاتفك إلى حاسوب أو متصفح باستخدام RemoteMic.">
+<meta name="twitter:image" content="https://northforceapps.github.io/remotemic/assets/feature_graphic.png">
+<link rel="icon" href="/remotemic/assets/icon.png" type="image/png">
+<link rel="apple-touch-icon" href="/remotemic/assets/icon.png">
+<link rel="manifest" href="/remotemic/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/remotemic/styles.css">
+<style>.doc{max-width:780px;margin:0 auto;padding:40px 24px 80px}
+  .doc h1{font-family:var(--serif);font-size:2.4rem;color:var(--teal-deep);margin-bottom:6px}
+  .doc h2{font-family:var(--serif);font-size:1.4rem;color:var(--ink);margin:30px 0 8px}
+  .doc p,.doc li{color:var(--ink-soft);margin:8px 0}
+  .doc ul{margin-left:20px}
+  .doc .eff{color:var(--stone);font-size:.95rem}
+  .doc .lede{margin-top:18px}
+  .doc .cta-card{margin-top:36px;padding:22px;border-radius:18px;background:var(--paper);border:1px solid rgba(10,18,33,.08)}
+  .guide-hero{width:100%;height:auto;border-radius:18px;margin:18px 0 8px;display:block}
+  .doc h3{font-family:var(--serif);font-size:1.15rem;color:var(--teal-deep);margin:22px 0 6px}
+  .doc ol,.doc ul{margin-left:20px}
+  .doc ol li,.doc ul li{margin:6px 0}
+  .doc .faq{margin-top:34px}
+  .doc .faq h2{margin-bottom:6px}
+  .doc .faq details{border-bottom:1px solid rgba(10,18,33,.10);padding:12px 0}
+  .doc .faq summary{font-weight:600;color:var(--ink);cursor:pointer}
+  .doc .faq details p{margin-top:8px}
+  .doc .related{margin-top:34px}
+  .doc .related ul{list-style:none;margin-left:0}
+  .doc .related li{margin:8px 0}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "inLanguage": "ar",
+  "headline": "بثّ ميكروفون هاتفك إلى المتصفح عبر Wi-Fi",
+  "description": "حوّل هاتف Android إلى ميكروفون مباشر يمكن لأي متصفح على نفس شبكة Wi-Fi تشغيله — دون تطبيق للمستمعين ودون كابلات. ابثّ ميكروفون هاتفك إلى حاسوب أو متصفح باستخدام RemoteMic.",
+  "mainEntityOfPage": "https://northforceapps.github.io/remotemic/ar/guides/stream-phone-mic-to-browser.html",
+  "image": "https://northforceapps.github.io/remotemic/assets/feature_graphic.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Northforce Apps"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "ar",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "هل يجب تثبيت شيء على الحاسوب؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "لا. جهاز الاستماع يفتح فقط عنوان ويب في أي متصفح حديث — Chrome أو Safari أو Edge أو Firefox. وحده الهاتف يحتاج إلى RemoteMic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "كيف أفتح البث؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "يعرض RemoteMic رابطاً ورمز QR. اكتب الرابط في متصفح على نفس شبكة Wi-Fi، أو امسح رمز QR، فيبدأ التشغيل."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "هل يمكن لعدة حواسيب وهواتف الاستماع معاً؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "نعم. شارِك الرابط نفسه؛ يمكن لكل متصفح على الشبكة تشغيل البث في الوقت نفسه."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "كم مقدار التأخير؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "عادةً أقل من ثانية بكثير على شبكة محلية — مناسب للسرد والمراقبة والمساعدة على السمع."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "هل يحتاج إلى إنترنت؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "لا. يعمل على أي شبكة Wi-Fi محلية، ويمكنه إنشاء نقطة اتصال خاصة عند عدم وجود أي شبكة."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/remotemic/ar/"><img src="/remotemic/assets/icon.png" alt="RemoteMic icon">RemoteMic</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="/remotemic/ar/#features">المزايا</a>
+      <a href="/remotemic/ar/#how">كيف يعمل</a>
+      <a href="/remotemic/ar/guides/">الأدلة</a>
+      <details class="lang"><summary><span class="flag">🇸🇦</span> العربية <span class="chev" aria-hidden="true">▾</span></summary><div class="lang-menu"><a href="/remotemic/guides/stream-phone-mic-to-browser.html" hreflang="en" lang="en">🇬🇧 English</a><a href="/remotemic/de/guides/stream-phone-mic-to-browser.html" hreflang="de" lang="de">🇩🇪 Deutsch</a><a href="/remotemic/fr/guides/stream-phone-mic-to-browser.html" hreflang="fr" lang="fr">🇫🇷 Français</a><a href="/remotemic/es/guides/stream-phone-mic-to-browser.html" hreflang="es" lang="es">🇪🇸 Español</a><a href="/remotemic/pt-br/guides/stream-phone-mic-to-browser.html" hreflang="pt-BR" lang="pt-BR">🇧🇷 Português</a><a href="/remotemic/hi/guides/stream-phone-mic-to-browser.html" hreflang="hi" lang="hi">🇮🇳 हिन्दी</a><a href="/remotemic/ja/guides/stream-phone-mic-to-browser.html" hreflang="ja" lang="ja">🇯🇵 日本語</a><a href="/remotemic/ar/guides/stream-phone-mic-to-browser.html" hreflang="ar" lang="ar" aria-current="true">🇸🇦 العربية</a></div></details>
+    </nav>
+  </div>
+</header>
+<main class="doc">
+  <p class="eff"><a href="/remotemic/ar/guides/">← كل الأدلة</a></p>
+  <h1>بثّ ميكروفون هاتفك إلى المتصفح عبر Wi-Fi</h1>
+  <img class="guide-hero" src="/remotemic/assets/ar/scene-06-browser.jpg" alt="هاتف يبثّ صوت الميكروفون المباشر إلى متصفح حاسوب محمول عبر Wi-Fi" loading="lazy">
+<p class="lede">هل تريد <strong>بث ميكروفون الهاتف إلى المتصفح</strong> على نفس شبكة Wi-Fi؟ يحوّل <a href="/remotemic/ar/">RemoteMic</a> هاتف Android إلى ميكروفون مباشر يمكن لأي كمبيوتر أو جهاز لوحي أو هاتف آخر تشغيله بمجرد فتح رابط ويب — بلا app للمستمعين، ولا كابلات، ولا حساب cloud. وجّه الهاتف، افتح الصفحة، وستصل صوتك إلى المتصفح.</p>
+
+<h2>ما الذي تحتاجه</h2>
+<ul>
+  <li>هاتف Android (إصدار Android 11 أو أحدث) مع تثبيت RemoteMic — هذا هو الميكروفون.</li>
+  <li>أي جهاز يحتوي على متصفح حديث — Chrome أو Safari أو Edge أو Firefox — على نفس شبكة Wi-Fi.</li>
+</ul>
+
+<h2>خطوة بخطوة</h2>
+<ol>
+  <li><strong>ابدأ الميكروفون في RemoteMic.</strong> يبدأ الهاتف في التقاط الصوت واستضافة stream محلي على شبكتك.</li>
+  <li><strong>اعثر على رابط الاستماع.</strong> يعرض app عنوان ويب (ورمز QR) للstream — رابطًا على شبكتك المحلية يمكنك فتحه من أي متصفح.</li>
+  <li><strong>افتحه على الكمبيوتر.</strong> اكتب الرابط في متصفح laptop أو desktop، أو امسح رمز QR من هاتف آخر. يبدأ التشغيل داخل الصفحة.</li>
+  <li><strong>تحدث.</strong> يُشغَّل صوتك عبر سماعات الكمبيوتر أو headphones في الوقت الحقيقي. اضبط gain على الهاتف إذا احتجت إلى مستوى صوت أعلى أو أقل.</li>
+</ol>
+
+<h2>هل يحتاج المستمعون إلى تثبيت أي شيء؟</h2>
+<p>لا. هذه هي الفكرة — جهة الاستماع مجرد صفحة ويب. أي شخص تشارك معه الرابط، على نفس الشبكة، يمكنه الاستماع في المتصفح دون تنزيل أي شيء. الهاتف فقط هو الذي يشغّل RemoteMic.</p>
+
+<h2>هل يمكن لأكثر من جهاز الاستماع؟</h2>
+<p>نعم. شارك الرابط نفسه، ويمكن لكل متصفح على الشبكة تشغيل الstream في الوقت نفسه — مثل laptop وdesktop وهاتفين معًا. الآلية نفسها سواء كان المستمع شخصًا واحدًا أو غرفة كاملة.</p>
+
+<h2>ما مقدار التأخير؟</h2>
+<p>على Wi-Fi أو hotspot عادي، يكون التأخير عادة منخفضًا بما يكفي للسرد، ومراقبة الصوت، والاستماع المساعد، أو إدخال الصوت في تسجيل أو مكالمة. في إعدادات نموذجية بهاتف وrouter من الفئة المتوسطة، قد يكون التأخير حوالي 150 ms حسب ظروف Wi-Fi وتخزين الصوت المؤقت. ليس مخصصًا للمزامنة الدقيقة بين الشفاه والفيديو.</p>
+
+<h2>لا توجد شبكة Wi-Fi؟ استخدم hotspot المدمج</h2>
+<p>إذا لم تكن هناك شبكة مشتركة، يمكن لـ RemoteMic إنشاء hotspot خاص به. صِل الكمبيوتر بذلك الhotspot، افتح الرابط، وستبدأ البث من دون إنترنت ومن دون router على الإطلاق.</p>
+
+<h2>مفيد من أجل</h2>
+<ul>
+  <li><strong>استخدام الهاتف كميكروفون للكمبيوتر</strong> عبر Wi-Fi بدلًا من ميكروفون USB.</li>
+  <li><strong>المراقبة</strong> — اسمع غرفة من جهاز آخر أثناء الإعداد.</li>
+  <li><strong>الاستماع الجماعي</strong> — عدة متصفحات على stream واحد، بلا معدات إضافية.</li>
+</ul>
+
+<p>اطّلع على <a href="/remotemic/ar/">طريقة عمل RemoteMic</a>، أو اقرأ دليل <a href="/remotemic/ar/guides/wireless-tour-guide-system-app.html">تشغيل نظام مرشد سياحي لاسلكي</a> للبث إلى هواتف مجموعة كاملة.</p>
+
+  <section class="faq">
+    <h2>الأسئلة الشائعة</h2>
+    <details><summary>هل يجب تثبيت شيء على الحاسوب؟</summary><p>لا. جهاز الاستماع يفتح فقط عنوان ويب في أي متصفح حديث — Chrome أو Safari أو Edge أو Firefox. وحده الهاتف يحتاج إلى RemoteMic.</p></details>
+    <details><summary>كيف أفتح البث؟</summary><p>يعرض RemoteMic رابطاً ورمز QR. اكتب الرابط في متصفح على نفس شبكة Wi-Fi، أو امسح رمز QR، فيبدأ التشغيل.</p></details>
+    <details><summary>هل يمكن لعدة حواسيب وهواتف الاستماع معاً؟</summary><p>نعم. شارِك الرابط نفسه؛ يمكن لكل متصفح على الشبكة تشغيل البث في الوقت نفسه.</p></details>
+    <details><summary>كم مقدار التأخير؟</summary><p>عادةً أقل من ثانية بكثير على شبكة محلية — مناسب للسرد والمراقبة والمساعدة على السمع.</p></details>
+    <details><summary>هل يحتاج إلى إنترنت؟</summary><p>لا. يعمل على أي شبكة Wi-Fi محلية، ويمكنه إنشاء نقطة اتصال خاصة عند عدم وجود أي شبكة.</p></details>
+  </section>
+  <section class="related">
+    <h2>أدلة ذات صلة</h2>
+    <ul>
+      <li><a href="/remotemic/ar/guides/wireless-tour-guide-system-app.html">تطبيق نظام مرشد سياحي لاسلكي</a></li>
+      <li><a href="/remotemic/ar/guides/assistive-listening-app.html">تطبيق مساعدة على السمع</a></li>
+      <li><a href="/remotemic/ar/guides/phone-as-bluetooth-microphone.html">الهاتف كميكروفون Bluetooth</a></li>
+    </ul>
+  </section>
+  <div class="cta-card">
+    <h2>جاهز لتجربته؟</h2>
+    <p>RemoteMic مجاني للتثبيت. اجعل صوتك مسموعا خلال ثوان.</p>
+    <p><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.stream.remotemic" rel="noopener"><img src="/remotemic/assets/badge-ar.svg" alt="احصل عليه من Google Play" width="186" height="55" loading="lazy"></a></p>
+  </div>
+</main>
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="y">2026</span> RemoteMic · Northforce Apps</div>
+    <nav aria-label="Footer">
+      <a href="/remotemic/ar/privacy.html">الخصوصية</a>
+      <a href="mailto:northforceapps@protonmail.com">اتصل بنا</a>
+      <a href="https://play.google.com/store/apps/details?id=com.stream.remotemic" rel="noopener">Google Play</a>
+    </nav>
+  </div>
+</footer>
+<script src="/remotemic/app.js"></script>
+</body>
+</html>
