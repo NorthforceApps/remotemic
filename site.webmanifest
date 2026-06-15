@@ -1,0 +1,13 @@
+{
+  "name": "RemoteMic",
+  "short_name": "RemoteMic",
+  "description": "Turn your phone into a wireless microphone — stream to a Bluetooth speaker or any browser on your Wi-Fi.",
+  "start_url": "/remotemic/",
+  "scope": "/remotemic/",
+  "display": "standalone",
+  "background_color": "#e9f3fb",
+  "theme_color": "#0c7e7b",
+  "icons": [
+    { "src": "assets/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
