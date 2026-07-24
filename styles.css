@@ -200,6 +200,11 @@ section{padding:76px 0}
 footer{padding:46px 0;color:var(--stone);font-size:.92rem}
 .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
 .foot a{color:var(--ink-soft);margin-left:18px}
+.foot-more{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:16px;
+  padding-top:16px;border-top:1px solid rgba(10,18,33,.08)}
+.foot-more-label{opacity:.75}
+.foot-more nav{display:flex;flex-wrap:wrap;gap:14px}
+.foot-more a{color:var(--ink-soft);margin-left:0}
 
 /* language dropdown (header) */
 .lang{position:relative}
