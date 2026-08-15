@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://northforceapps.github.io/remotemic/sitemap.xml
+Sitemap: https://northforceapps.com/remotemic/sitemap.xml

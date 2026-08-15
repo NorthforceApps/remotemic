@@ -4,7 +4,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-HOST="northforceapps.github.io"
+HOST="northforceapps.com"
 KEY="b705d57c1aeabc9052bed37ba3eed23a"
 KEY_LOCATION="https://${HOST}/remotemic/${KEY}.txt"
 
