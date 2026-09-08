@@ -18,10 +18,18 @@
     }
     return "site_" + slug.replace(/-/g, "_");
   }
+  function localeFromPath() {
+    var parts = window.location.pathname.split("/").filter(Boolean);
+    var locales = { de: 1, fr: 1, es: 1, hi: 1, ja: 1, ar: 1, "pt-br": 1, ko: 1, pt: 1, zh: 1 };
+    for (var i = 0; i < parts.length; i++) {
+      if (locales[parts[i]]) return parts[i];
+    }
+    return "en";
+  }
   var url = new URL("https://play.google.com/store/apps/details?id=" + PACKAGE);
   url.searchParams.set(
     "referrer",
-    "utm_source=" + SOURCE + "&utm_medium=organic&utm_campaign=" + campaign()
+    "utm_source=" + SOURCE + "&utm_medium=organic&utm_campaign=" + campaign() + "&utm_content=" + localeFromPath()
   );
   document.querySelectorAll('a[href*="play.google.com/store/apps/details"]').forEach(function (a) {
     a.href = url.toString();
